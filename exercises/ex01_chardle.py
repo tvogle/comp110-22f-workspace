@@ -1,4 +1,4 @@
-"""EX01 - Chardle - A cute step toward Wordle"""
+"""EX01 - Chardle - A cute step toward Wordle!"""
 
 __author__ = "730553817"
 
@@ -39,7 +39,7 @@ if character == word[4]:
 if x == 1:
     print(str(x) + " instance of " + character + " found in " + word)
 else:
-    if x < 1 :
+    if x < 1:
         print("No instances of " + character + " found in " + word)
     else:
         print(str(x) + " instances of " + character + " found in " + word)
